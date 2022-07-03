@@ -148,6 +148,11 @@ img {
     margin-left: auto;   
 }
 
+.icon-contacts {
+    margin-right: 10px;
+} 
+
+
 .contact-item {
     font-family: var(--main-font);
     font-weight: 500;
@@ -155,21 +160,18 @@ img {
     letter-spacing: 0.02em;
 
     color: var(--main-color);
+    fill: var(--main-color);
 }
 
 .contact-item:not(:last-child) {
     margin-right: 50px;
 }
+
 .contact-item:hover,
 .contact-item:focus {
+    fill: var(--accent-color);
     color: var(--accent-color);
 }
-
-
-/*.icon-contacts {}
-
-.mail-icon {}*/
-
 
 .header-email {
     display: flex;
@@ -276,6 +278,10 @@ img {
     background: var(--bg-color-main);
     border-radius: 4px;
     margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-------------Чем мы занимаемся----------==*/
@@ -355,6 +361,81 @@ img {
     color: var(--main-color);
 }
 
+
+.team-icon-social {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-social {
+    display: block;
+}
+
+
+.link-social:not(:last-child) {
+    margin-right: 10px;
+    
+}
+
+.icon-social {
+    fill: #AFB1B8;
+    border-color: var(--accent-color);
+    border-radius: 50%;
+}
+/*-------------Clients---------*/
+.client-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.link-client {
+    display: block;
+    height: 92px;
+    width: 170px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+}
+
+.link-client:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+.client1 {
+    padding: 23px 65px;;
+}
+
+.client2 {
+    padding: 19px 65px 21px 65px;
+}
+
+.client3 {
+    padding: 25px 62px 26px 65px ;
+}
+
+.client4 {
+    padding: 25px 43px 27px 43px;
+}
+
+.client5 {
+    padding: 23px 54px ;
+}
+
+.client6 {
+    padding: 23px 38px 25px 38px;
+}
+
+.link-client:hover,
+.link-client:focus {
+    fill: var(--accent-color);
+    border: 1px solid var(--accent-color);
+}
+
 /*-----------Footer------------*/
 .footer {
     background-color: var(--dark-background);
@@ -400,6 +481,54 @@ img {
 
     color: var(--color-light-title);
     opacity: 0.6;
+}
+
+.title-footer-social{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: var(--light-background);
+
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.subscribe {
+    margin-left: 70px;
+}
+
+.footer-column {
+    display: flex;
+}
+
+
+.link-social-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-icon-list {
+    display: flex;
+}
+
+.link-social-footer {
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+    fill: var(--light-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.link-social-footer:hover,
+.link-social-footer:focus {
+    background: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
