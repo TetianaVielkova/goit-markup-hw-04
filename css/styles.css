@@ -364,10 +364,11 @@ img {
 
 .team-icon-social {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 44px;
-    width: 206px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .link-social:not(:last-child) {
@@ -382,7 +383,7 @@ img {
     width: 44px;
     fill: #AFB1B8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
