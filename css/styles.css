@@ -371,6 +371,12 @@ img {
 
 .link-social {
     display: block;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
 }
 
 
@@ -379,11 +385,13 @@ img {
     
 }
 
-.icon-social {
-    fill: #AFB1B8;
+.link-social:hover,
+.link-social:focus {
     border-color: var(--accent-color);
     border-radius: 50%;
+    fill: var(--light-background);
 }
+
 /*-------------Clients---------*/
 .client-icons {
     display: flex;
