@@ -366,6 +366,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 44px;
+    width: 206px;
 }
 
 .link-social:not(:last-child) {
@@ -380,7 +382,7 @@ img {
     width: 44px;
     fill: #AFB1B8;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -388,6 +390,7 @@ img {
 .link-social:focus {
     fill: var(--light-background);
     background: var(--accent-color);
+    border-radius: 50%;
 }
 
 /*-------------Clients---------*/
