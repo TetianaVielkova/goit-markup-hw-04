@@ -364,10 +364,9 @@ img {
 
 .team-icon-social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 44px;
-    width: 206px;
     margin-left: 32px;
     margin-right: 32px;
     padding-bottom: 30px;
