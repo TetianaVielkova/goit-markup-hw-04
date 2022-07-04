@@ -364,6 +364,8 @@ img {
 
 .team-icon-social {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .link-social:not(:last-child) {
@@ -373,6 +375,7 @@ img {
 .link-social {
     display: block;
     background: var(--color-light-title);
+    border-radius: 50%;
     height: 44px;
     width: 44px;
     fill: #AFB1B8;
