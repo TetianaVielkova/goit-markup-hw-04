@@ -363,35 +363,28 @@ img {
 
 
 .team-icon-social {
-    height: 44px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.link-social:not(:last-child) {
+    margin-right: 10px;
 }
 
 .link-social {
     display: block;
+    background: var(--color-light-title);
     height: 44px;
     width: 44px;
+    fill: #AFB1B8;
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: #AFB1B8;
-    background-color: var(--light-background);
-    border-radius: 50%;
-}
-
-
-.link-social:not(:last-child) {
-    margin-right: 10px;
-    
 }
 
 .link-social:hover,
 .link-social:focus {
     fill: var(--light-background);
-    background-color: var(--accent-color);
-    
+    background: var(--accent-color);
 }
 
 /*-------------Clients---------*/
