@@ -356,6 +356,7 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
+    margin-bottom: 16px;
     
 
     color: var(--main-color);
