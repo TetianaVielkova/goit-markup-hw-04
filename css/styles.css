@@ -377,6 +377,8 @@ img {
     justify-content: center;
     align-items: center;
     fill: #AFB1B8;
+    border-color: var(--light-background);
+    border-radius: 50%;
 }
 
 
@@ -387,9 +389,9 @@ img {
 
 .link-social:hover,
 .link-social:focus {
-    border-color: var(--accent-color);
-    border-radius: 50%;
     fill: var(--light-background);
+    border-color: var(--accent-color);
+    
 }
 
 /*-------------Clients---------*/
